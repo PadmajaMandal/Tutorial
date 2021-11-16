@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>jQuery - Demo</title>
+    <script src="jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="color-box after">Boxes will come after this text.</div>
+      <div class="color-box before">Before</div>
+      <div class="color-box append">Append</div>
+      <div class="color-box prepend">Prepend</div>
+      <br /><br />
+      <!-- <button id="showBoxes">Show Boxes</button> <br /><br />
+
+      <button id="hideBoxes">Hide Boxes</button> -->
+
+      <button id="animateBoxes">Animate</button>
+      <div>
+        <p>Test</p>
+      </div>
+    </div>
+
+    <style>
+      .color-box {
+        width: 250px;
+        height: 250px;
+        border: 1px solid black;
+        margin: 2px;
+      }
+      .after {
+        background-color: red;
+      }
+      .before {
+        background-color: blue;
+      }
+      .append {
+        background-color: green;
+      }
+      .prepend {
+        background-color: cyan;
+      }
+      .attached {
+        background-color: gold;
+        display: inline-block;
+      }
+      .golden-link {
+        color: gold;
+      }
+    </style>
+
+    <script>
+      $(document).ready(function () {
+        // $("#hideBoxes").click(function () {
+        //   $(".color-box").hide(500);
+        // });
+
+        // $("#showBoxes").click(function () {
+        //   $(".color-box").show(500);
+        // });
+
+        // $("#hideBoxes").click(function () {
+        //   $(".color-box").fadeIn(500);
+        // });
+
+        // $("#showBoxes").click(function () {
+        //   $(".color-box").fadeOut(500);
+        // });
+
+        // $("#hideBoxes").click(function () {
+        //   $(".color-box").fadeTo(500, 0.5);
+        // });
+
+        // $("#showBoxes").click(function () {
+        //   $(".color-box").fadeTo(500, 1);
+        // });
+
+        // $("#hideBoxes").click(function () {
+        //   $(".color-box").slideDown(500);
+        // });
+
+        // $("#showBoxes").click(function () {
+        //   $(".color-box").slideUp(500);
+        // });
+
+        // $("#showBoxes").click(function () {
+        //   $(".color-box").hide(500);
+        // });
+
+        // $("#myDiv2").append($("#myDiv1>p"));
+        // $("#myDiv1>p").appendTo($("#myDiv2"));
+
+        // $('#animateBoxes').click(function() {
+        //     $('.color-box').animate({
+        //         'width': '400px',
+        //         'margin-top': '40px',
+        //         'opacity': 0.8
+        //     }, 2000);
+        // });
+
+        $('#animateBoxes').click(function() {
+            $('#myDiv').animate({top: 50}, 1000)
+            .delay(1000).animate({left:200}, 1000);
+        });
+      });
+    </script>
+  </body>
+</html>
