@@ -1,0 +1,16 @@
+From af3d9fc046ed29e8616c89dca806224951f15a55 Mon Sep 17 00:00:00 2001
+From: Padmaja Mandala <1993mandalapadmaja@gmail.com>
+Date: Tue, 16 Nov 2021 17:09:11 +0530
+Subject: [PATCH] Updated the file
+
+---
+ testrm.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 testrm.txt
+
+diff --git a/testrm.txt b/testrm.txt
+deleted file mode 100644
+index e69de29..0000000
+-- 
+2.33.1.windows.1
+
